@@ -13,9 +13,8 @@ a:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: rgb(255, 255, 255);
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: rgba(55, 185, 236,.8);
   
   border: .05rem solid #fff;
 }
@@ -44,8 +43,6 @@ body {
 }
 
 .cover-heading{
-    border-radius: 25px;
-    border: 2px solid rgb(212, 212, 212);
     padding: 20px; 
 }
 
@@ -112,9 +109,7 @@ body {
 }
 
 #transparent-box{
-  background: rgba(63, 63, 63, 0.7);
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 15px;
 }
 
 /*
